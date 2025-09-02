@@ -1,11 +1,13 @@
 # Krav för godkänt
 # Du ska skapa attribut för klassen Bottle.
 # Skriv färdigt init-metoden så att alla metoder fungerar
+# Skapa sedan ett par objekt av klassen Bottle och testa metoderna
 
 
 class Bottle:
     def __init__(self) -> None:
-        # TODO Skriv metoden
+    # TODO Skriv metoden
+    # Fundera på vilka attribut som behövs för att metoderna ska fungera – ledtrådar finns i metoderna!
         pass
 
     def __str__(self) -> str:

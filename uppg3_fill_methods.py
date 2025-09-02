@@ -3,7 +3,7 @@
 # Din klass
 # Datum
 # Skriv färdigt metoderna så att de gör det som beskrivs
-
+# Fundera på vad varje metod ska göra och hur den påverkar spelarens attribut
 
 class FootballPlayer:
     def __init__(self, name, age, goals, assists, team):
@@ -22,7 +22,7 @@ class FootballPlayer:
         pass
 
     def make_assists(self, amount):
-        # TODO Metoden make_assists ska öka spelarens antal assit med värdet på parametern amount
+        # TODO Metoden make_assists ska öka spelarens antal assist med värdet på parametern amount
         pass
 
     def change_team(self, new_team):
