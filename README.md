@@ -13,7 +13,7 @@ I modul 1 ska du skapa dina första klasser.
 - Attribut / Egenskaper (eng. Attributes)
 - Arv (eng. Inheritance)
 - Klassdiagram (eng. Class/UML Diagram)
-- Inkapsling (eng. Incapsulation)
+- Inkapsling (eng. Encapsulation)
 
 [Klassdiagrammet](ClassDiagram.png) i detta repo är taget ifrån https://twitter.com/KhuyenTran16/status/1460271572984475660
 

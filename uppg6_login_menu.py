@@ -1,4 +1,17 @@
-# Du ska skapa klassen Account och implementera menyn så att användaren kan skapa konto och logga in på kontot.
+# Du ska skapa klassen Account och implementera menyn sa att anvandaren kan skapa konto och logga in pa kontot.
+# Krav pa Account:
+# - username (str)
+# - password (str)
+# - balance (int eller float)
+# - __str__-metod som skriver ut username och saldo
+#
+# Krav pa menyn:
+# 1) Skapa konto: lagg till ett Account-objekt i listan accounts.
+# 2) Logga in: anvandaren far hogst 3 forsok.
+#    Om inloggning lyckas ska anvandaren kunna gora MINST en sak:
+#    - andras password, eller
+#    - satta in/ta ut pengar.
+# 3) Avsluta program.
 
 # Loginmeny
 # Skelettkod till uppgiften

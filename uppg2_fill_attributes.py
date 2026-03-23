@@ -1,13 +1,11 @@
 # Krav för godkänt
-# Du ska skapa attribut för klassen Bottle.
-# Skriv färdigt init-metoden så att alla metoder fungerar
-# Skapa sedan ett par objekt av klassen Bottle och testa metoderna
-
+# Du ska skapa attribut for klassen Bottle.
+# Skriv fardigt __init__-metoden sa att alla metoder fungerar.
 
 class Bottle:
     def __init__(self) -> None:
-    # TODO Skriv metoden
-    # Fundera på vilka attribut som behövs för att metoderna ska fungera – ledtrådar finns i metoderna!
+        # TODO Skriv metoden
+        # Fundera pa vilka attribut som behovs for att metoderna ska fungera.
         pass
 
     def __str__(self) -> str:
@@ -25,3 +23,21 @@ class Bottle:
         if self.contents == 0:
             print("The bottle is already empty.")
         self.contents = 0
+
+
+# Testfall (ska fungera nar __init__ ar klar)
+if __name__ == "__main__":
+    bottle_a = Bottle(500, 200)
+    print(bottle_a)
+    bottle_a.fill(100)
+    print(bottle_a)
+    bottle_a.fill(300)  # ska spilla over och sluta pa maxvolym
+    print(bottle_a)
+
+    bottle_b = Bottle(1000, 0)
+    print(bottle_b)
+    bottle_b.empty()  # ska skriva att den redan ar tom
+    bottle_b.fill(1000)
+    print(bottle_b)
+    bottle_b.empty()
+    print(bottle_b)
