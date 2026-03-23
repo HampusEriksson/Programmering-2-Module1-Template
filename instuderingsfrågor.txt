@@ -1,0 +1,9 @@
+Vad är en klass?
+Vad är ett attribut till en klass?
+Vad är en metod?
+Vad är skillnaden på en metod och en funktion?
+Vad innebär det att en klass ärver ifrån en annan klass?
+När skulle du välja arv istället för att skapa en helt separat klass?
+Vad är inkapsling?
+
+Du ska också utifrån en given klass kunna identifiera attribut, metoder och arv.
